@@ -7,11 +7,14 @@ import Users from './components/Users'
 import Stateeg1 from './components/Stateeg1'
 import Stateeg2 from './components/Stateeg2'
 import Taskcomponent from './components/Taskcomponent'
+import Calc from './components/Calc'
 function App() {
  
   return (
  <>
- <Taskcomponent></Taskcomponent>
+
+<Calc></Calc>
+ {/* <Taskcomponent></Taskcomponent> */}
  
  </>
   )
