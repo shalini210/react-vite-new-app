@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Webcrumbs Plugin</title>
+        <style>
+            @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+        </style>
+    </head>
+    <body>
+        <div id="webcrumbs">
+            <div class="w-[1280px] p-8 font-sans">
+                <header class="mb-12 text-center">
+                    <h1 class="text-4xl font-bold mb-4">Explore Amazing Destinations</h1>
+                    <p class="text-xl max-w-2xl mx-auto">
+                        Discover breathtaking locations around the world for your next adventure
+                    </p>
+                </header>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                    >
+                        <div class="relative h-[240px] overflow-hidden">
+                            <img
+                                src="https://images.unsplash.com/photo-1533105079780-92b9be482077"
+                                alt="Paris"
+                                class="w-full h-full object-cover"
+                                keywords="paris, eiffel tower, france, europe, travel"
+                            />
+                            <div
+                                class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md cursor-pointer hover:bg-primary-50 transition-colors"
+                            >
+                                <span class="material-symbols-outlined">favorite_border</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-4">
+                                <h2 class="text-2xl font-bold">Paris, France</h2>
+                                <div class="flex items-center text-primary-600">
+                                    <span class="material-symbols-outlined mr-1">star</span> <span>4.8</span>
+                                </div>
+                            </div>
+                            <p class="mb-6">
+                                Experience the magic of the City of Light with its iconic architecture, world-class
+                                cuisine, and romantic ambiance.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-lg">$1,200</span>
+                                <button
+                                    class="bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-700 transition-colors"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                    >
+                        <div class="relative h-[240px] overflow-hidden">
+                            <img
+                                src="https://images.unsplash.com/photo-1545389336-cf090694435e"
+                                alt="Santorini"
+                                class="w-full h-full object-cover"
+                                keywords="santorini, greece, island, mediterranean, travel"
+                            />
+                            <div
+                                class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md cursor-pointer hover:bg-primary-50 transition-colors"
+                            >
+                                <span class="material-symbols-outlined">favorite_border</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-4">
+                                <h2 class="text-2xl font-bold">Santorini, Greece</h2>
+                                <div class="flex items-center text-primary-600">
+                                    <span class="material-symbols-outlined mr-1">star</span> <span>4.9</span>
+                                </div>
+                            </div>
+                            <p class="mb-6">
+                                Discover whitewashed buildings, blue-domed churches, and breathtaking sunsets on this
+                                iconic Greek island.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-lg">$1,500</span>
+                                <button
+                                    class="bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-700 transition-colors"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                    >
+                        <div class="relative h-[240px] overflow-hidden">
+                            <img
+                                src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce"
+                                alt="Bali"
+                                class="w-full h-full object-cover"
+                                keywords="bali, indonesia, beach, tropical, travel"
+                            />
+                            <div
+                                class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md cursor-pointer hover:bg-primary-50 transition-colors"
+                            >
+                                <span class="material-symbols-outlined">favorite_border</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-4">
+                                <h2 class="text-2xl font-bold">Bali, Indonesia</h2>
+                                <div class="flex items-center text-primary-600">
+                                    <span class="material-symbols-outlined mr-1">star</span> <span>4.7</span>
+                                </div>
+                            </div>
+                            <p class="mb-6">
+                                Relax on pristine beaches, explore lush rice terraces, and immerse yourself in rich
+                                cultural traditions.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-lg">$950</span>
+                                <button
+                                    class="bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-700 transition-colors"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                    >
+                        <div class="relative h-[240px] overflow-hidden">
+                            <img
+                                src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+                                alt="Cinque Terre"
+                                class="w-full h-full object-cover"
+                                keywords="cinque terre, italy, coast, mediterranean, travel"
+                            />
+                            <div
+                                class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md cursor-pointer hover:bg-primary-50 transition-colors"
+                            >
+                                <span class="material-symbols-outlined">favorite_border</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-4">
+                                <h2 class="text-2xl font-bold">Cinque Terre, Italy</h2>
+                                <div class="flex items-center text-primary-600">
+                                    <span class="material-symbols-outlined mr-1">star</span> <span>4.6</span>
+                                </div>
+                            </div>
+                            <p class="mb-6">
+                                Explore colorful seaside villages nestled along dramatic cliff edges and hike stunning
+                                coastal trails.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-lg">$1,350</span>
+                                <button
+                                    class="bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-700 transition-colors"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                    >
+                        <div class="relative h-[240px] overflow-hidden">
+                            <img
+                                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                                alt="Maldives"
+                                class="w-full h-full object-cover"
+                                keywords="maldives, beach, tropical, island, travel"
+                            />
+                            <div
+                                class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md cursor-pointer hover:bg-primary-50 transition-colors"
+                            >
+                                <span class="material-symbols-outlined">favorite_border</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-4">
+                                <h2 class="text-2xl font-bold">Maldives</h2>
+                                <div class="flex items-center text-primary-600">
+                                    <span class="material-symbols-outlined mr-1">star</span> <span>4.9</span>
+                                </div>
+                            </div>
+                            <p class="mb-6">
+                                Experience paradise with pristine white sand beaches, crystal-clear turquoise waters,
+                                and luxurious overwater bungalows.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-lg">$2,100</span>
+                                <button
+                                    class="bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-700 transition-colors"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                    >
+                        <div class="relative h-[240px] overflow-hidden">
+                            <img
+                                src="https://images.unsplash.com/photo-1526392060635-9d6019884377"
+                                alt="Kyoto"
+                                class="w-full h-full object-cover"
+                                keywords="kyoto, japan, temple, asia, travel"
+                            />
+                            <div
+                                class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md cursor-pointer hover:bg-primary-50 transition-colors"
+                            >
+                                <span class="material-symbols-outlined">favorite_border</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-4">
+                                <h2 class="text-2xl font-bold">Kyoto, Japan</h2>
+                                <div class="flex items-center text-primary-600">
+                                    <span class="material-symbols-outlined mr-1">star</span> <span>4.8</span>
+                                </div>
+                            </div>
+                            <p class="mb-6">
+                                Immerse yourself in traditional Japanese culture with ancient temples, serene gardens,
+                                and historic geisha districts.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-lg">$1,650</span>
+                                <button
+                                    class="bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-700 transition-colors"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 flex justify-center">
+                    <button
+                        class="bg-white border border-primary-600 text-primary-600 px-8 py-3 rounded-full font-medium hover:bg-primary-50 transition-colors mx-2"
+                    >
+                        Load More
+                    </button>
+                    <button
+                        class="bg-primary-600 text-white px-8 py-3 rounded-full font-medium hover:bg-primary-700 transition-colors mx-2"
+                    >
+                        View All Destinations
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                content: ["./src/**/*.{html,js}"],
+                theme: {
+                    name: "Custom",
+                    fontFamily: {
+                        sans: [
+                            "Open Sans",
+                            "ui-sans-serif",
+                            "system-ui",
+                            "sans-serif",
+                            '"Apple Color Emoji"',
+                            '"Segoe UI Emoji"',
+                            '"Segoe UI Symbol"',
+                            '"Noto Color Emoji"'
+                        ]
+                    },
+                    extend: {
+                        fontFamily: {
+                            title: [
+                                "Lato",
+                                "ui-sans-serif",
+                                "system-ui",
+                                "sans-serif",
+                                '"Apple Color Emoji"',
+                                '"Segoe UI Emoji"',
+                                '"Segoe UI Symbol"',
+                                '"Noto Color Emoji"'
+                            ],
+                            body: [
+                                "Open Sans",
+                                "ui-sans-serif",
+                                "system-ui",
+                                "sans-serif",
+                                '"Apple Color Emoji"',
+                                '"Segoe UI Emoji"',
+                                '"Segoe UI Symbol"',
+                                '"Noto Color Emoji"'
+                            ]
+                        },
+                        colors: {
+                            neutral: {
+                                50: "#611BF8",
+                                100: "#5E1AF1",
+                                200: "#5B19E9",
+                                300: "#5819E2",
+                                400: "#5518DA",
+                                500: "#5217D3",
+                                600: "#270B63",
+                                700: "#1D084A",
+                                800: "#130532",
+                                900: "#0A0319",
+                                DEFAULT: "#611BF8"
+                            },
+                            primary: {
+                                50: "#FDC6B7",
+                                100: "#FDB5A2",
+                                200: "#FC9D83",
+                                300: "#FB8464",
+                                400: "#FB6B45",
+                                500: "#FA5B30",
+                                600: "#E1522B",
+                                700: "#BC4424",
+                                800: "#96371D",
+                                900: "#702916",
+                                DEFAULT: "#FA5B30"
+                            }
+                        }
+                    },
+                    fontSize: {
+                        xs: ["15px", {lineHeight: "24px"}],
+                        sm: ["17.5px", {lineHeight: "26.25px"}],
+                        base: ["20px", {lineHeight: "32px"}],
+                        lg: ["22.5px", {lineHeight: "33.75px"}],
+                        xl: ["25px", {lineHeight: "35px"}],
+                        "2xl": ["30px", {lineHeight: "39px"}],
+                        "3xl": ["37.5px", {lineHeight: "45px"}],
+                        "4xl": ["45px", {lineHeight: "51.74999999999999px"}],
+                        "5xl": ["60px", {lineHeight: "66px"}],
+                        "6xl": ["75px", {lineHeight: "82.5px"}],
+                        "7xl": ["90px", {lineHeight: "94.5px"}],
+                        "8xl": ["120px", {lineHeight: "126px"}],
+                        "9xl": ["160px", {lineHeight: "168px"}]
+                    },
+                    borderRadius: {
+                        none: "0px",
+                        sm: "6px",
+                        DEFAULT: "12px",
+                        md: "18px",
+                        lg: "24px",
+                        xl: "36px",
+                        "2xl": "48px",
+                        "3xl": "72px",
+                        full: "9999px"
+                    },
+                    spacing: {
+                        0: "0px",
+                        1: "6px",
+                        2: "12px",
+                        3: "18px",
+                        4: "24px",
+                        5: "30px",
+                        6: "36px",
+                        7: "42px",
+                        8: "48px",
+                        9: "54px",
+                        10: "60px",
+                        11: "66px",
+                        12: "72px",
+                        14: "84px",
+                        16: "96px",
+                        20: "120px",
+                        24: "144px",
+                        28: "168px",
+                        32: "192px",
+                        36: "216px",
+                        40: "240px",
+                        44: "264px",
+                        48: "288px",
+                        52: "312px",
+                        56: "336px",
+                        60: "360px",
+                        64: "384px",
+                        72: "432px",
+                        80: "480px",
+                        96: "576px",
+                        px: "1px",
+                        0.5: "3px",
+                        1.5: "9px",
+                        2.5: "15px",
+                        3.5: "21px"
+                    }
+                },
+                plugins: [],
+                important: "#webcrumbs"
+            }
+        </script>
+    </body>
+</html>
